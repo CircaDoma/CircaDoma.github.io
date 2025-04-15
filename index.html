@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="sidebar.js"></script>
+    <title>Forest Quest</title>
+</head>
+<body>
+
+    <button id="open-sidebar-button" onclick="openSideBar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+        <img src="images/menu-button.svg" height="45px"></img>
+    </button>
+
+    <nav id="navbar">
+        <ul>
+            <li>   
+                <button id="close-sidebar-button" onclick="closeSideBar()" aria-label="close sidebar">
+                    <img src="images/close-button.svg" height="45px"></img>
+                </button>
+            </li>
+            <li class="home-li" ><a class="active-link" aria-current="page" href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="settings.html">SETTINGS</a></li>
+            <li><a class="accent-link" href="game.html">GAME</a></li>
+        </ul>
+    </nav>
+
+    <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
+
+    <main>
+        <div>
+            <img class="flavorImg-home" src="images/bridge.png" height="500px">
+            <h1 id="titlecard">
+                THE FOREST OF DAMOCLES
+            </h1>
+            <p>
+                You wake to find yourself in a vast, dark forest, with the sword lying beside you the only clue to how you got here. What is this place? And can you escape? Only time will tell.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
