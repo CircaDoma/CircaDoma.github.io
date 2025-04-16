@@ -165,4 +165,11 @@ nav a.accent-link{
         margin: 2%;
         hyphens: auto;
     }
+    #openMapButton{
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        bottom: 0px;
+        border-top: 1px solid rgb(115, 112, 112);
+    }
 }
