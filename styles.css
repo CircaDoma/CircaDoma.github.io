@@ -5,7 +5,7 @@
     font-size: 1.1rem;
 }
 #titlecard{
-    font-size: 2rem;
+    font-size: 6rem;
     margin: 0em 0em 1em 0em;
 }
 .row {
@@ -128,7 +128,7 @@ nav a.accent-link{
         height: 100%;
         display: block;
         margin: auto;
-        width: 110%;
+        width: 90%;
     }
     #open-sidebar-button, #close-sidebar-button{
         display: block;
