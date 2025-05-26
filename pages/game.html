@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="app.js" type="module"></script>
-    <script defer src="sidebar.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script defer src="../scripts/app.js" type="module"></script>
+    <script defer src="../scripts/sidebar.js"></script>
     <title>Forest Quest</title>
 </head>
 <body>
     <audio src="audio/forest-audio.wav" autoplay loop></audio>
     <button id="open-sidebar-button" onclick="openSideBar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
-        <img src="images/menu-button.svg" height="45px"></img>
+        <img src="../images/menu-button.svg" height="45px"></img>
     </button>
 
     <nav id="navbar">
         <ul>
             <li>   
                 <button id="close-sidebar-button" onclick="closeSideBar()" aria-label="close sidebar">
-                    <img src="images/close-button.svg" height="45px"></img>
+                    <img src="../images/close-button.svg" height="45px"></img>
                 </button>
             </li>
-            <li class="home-li" ><a aria-current="page" href="index.html">HOME</a></li>
+            <li class="home-li" ><a aria-current="page" href="../index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="settings.html">SETTINGS</a></li>
             <li><a class="accent-link" href="game.html">GAME</a></li>
@@ -31,7 +31,7 @@
     <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
 
     <main>
-        <img class="flavorImg" id="imgLoc" src="images/forest-quest-start.png" height="100%">
+        <img class="flavorImg" id="imgLoc" src="../images/forest-quest-start.png" height="100%">
         <div class="container info-card">
             <div id="text">Text</div>
             <div id="option-buttons" class="btn-grid">
@@ -42,7 +42,7 @@
     </main>
 
     <button id="openMapButton" onclick="openMap()">
-        <img src="images/map-icon.svg" height="45px"></img>
+        <img src="../images/map-icon.svg" height="45px"></img>
     </button>
     <button id="map" onclick="closeMap()">
         <div id="map" height="500px"></div>
