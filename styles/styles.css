@@ -43,12 +43,14 @@ h2 {
     width: 25%;
     height: 100%;
     margin: auto;
+    padding: 8% 0em 8% 0em;
     vertical-align: middle;
 }
 .flavorImg-title {
     width: 70%;
     height: 100%;
     margin: auto;
+    padding: 8% 0em 8% 0em;
     vertical-align: middle;
 }
 .info-card{
@@ -172,7 +174,7 @@ nav a.accent-link{
         height: 100%;
         display: block;
         margin: auto;
-        padding: 0em 0em 1em 0em;
+        padding: 0em 0em 3em 0em;
         width: 40%;
     }
     .flavorImg-title{
