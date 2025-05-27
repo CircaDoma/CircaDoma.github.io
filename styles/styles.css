@@ -36,10 +36,19 @@ h2 {
     margin: 5% 1rem 0.5rem 1rem;
     flex-shrink: 0;
 }
-.flavorImg-home {
-    width: 80%;
+#logo-combined {
+    column-count: 2;
+}
+.flavorImg-icon {
+    width: 25%;
     height: 100%;
     margin-top: 4em;
+    margin-bottom: 6em;
+}
+.flavorImg-title {
+    width: 70%;
+    height: 100%;
+    margin-top: auto;
     margin-bottom: 6em;
 }
 .info-card{
@@ -97,11 +106,12 @@ nav a:hover{
     color: white;
 }
 nav a.active-link{
-    border-bottom: 2px solid black;
-}
-nav a.accent-link{
     background-color: black;
     color: white;
+
+}
+nav a.accent-link{
+    border-bottom: 2px solid black;
 }
 #open-sidebar-button{
     display: none;
@@ -151,18 +161,29 @@ nav a.accent-link{
 #map.show{
     left: 20px;
 }
+
+
+
 @media screen and (max-width: 830px){
     .flavorImg{
         width: 350px;
     }
-    .flavorImg-home{
+    .flavorImg-icon{
         height: 100%;
         display: block;
-        margin: 1em 1em 2em 1em;
-        width: 90%;
+        margin: auto;
+        padding: 0em 0em 1em 0em;
+        width: 40%;
+    }
+    .flavorImg-title{
+        height: 100%;
+        display: block;
+        margin: auto;
+        padding: 0em 0em 1em 0em;
+        width: 80%;
     }
     h2{
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
     .info-card-body{
         margin: 0em 10% 0em 10%;
