@@ -284,7 +284,7 @@ nav a.accent-link{
     #mobile-action-bar{
         background-color: white;
         width: 100%;
-        height: 60px;
+        height: 80px;
         position: fixed;
         bottom: 0px;
         border-top: 1px solid rgb(115, 112, 112);
