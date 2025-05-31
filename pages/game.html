@@ -35,28 +35,25 @@
         <img class="flavorImg" id="imgLoc" src="../images/forest-quest-start.png" height="100%" draggable="false">
         <div class="container">
             <div id="text">Text</div>
+        </div>
+    </main>
+    <div id="mobile-action-bar">
+        <button id="openMapButton" onclick="openMap()">
+            <img src="../images/map-icon.svg" height="45px" draggable="false"></img>
+        </button>
+
             <div id="option-buttons" class="btn-grid">
                 <button class="btn" id="opt1btn">Option A</button>
                 <button class="btn" id="opt2btn">Option B</button>
             </div>
-        </div>
-    </main>
-
-    <button id="openMapButton" onclick="openMap()">
-        <img src="../images/map-icon.svg" height="45px" draggable="false"></img>
-    </button>
-    <button id="map" onclick="closeMap()">
-        <div id="map" height="500px"></div>
-    </button>
 
 
+        <button id="openSettingsButton" onclick="openSettings()">
+            <img src="../images/Settings-icon.svg" height="45px" draggable="false"></img>
+        </button>
+    </div>
+    
 
 
-    <button id="openSettingsButton" onclick="openSettings()">
-        <img src="../images/Settings-icon.svg" height="45px" draggable="false"></img>
-    </button>
-    <button id="map" onclick="closeSettings()">
-        <div id="map" height="500px"></div>
-    </button>
 </body>
 </html>

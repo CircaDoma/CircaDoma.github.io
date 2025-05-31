@@ -185,6 +185,12 @@ nav a.accent-link{
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 830px){
     .flavorImg{
         width: 350px;
@@ -258,17 +264,33 @@ nav a.accent-link{
         hyphens: auto;
     }
     #openMapButton{
-        width: 100%;
-        height: 60px;
-        background-color: white;
-        bottom: 0px;
-        border-top: 1px solid rgb(115, 112, 112);
+        background: none;
+        border: none;
+        padding: 0em;
+        display: flex;
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
     }
     #openSettingsButton{
+        background: none;
+        border: none;
+        padding: 0em;
+        display: flex;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+    #mobile-action-bar{
+        background-color: white;
         width: 100%;
         height: 60px;
-        background-color: white;
+        position: fixed;
         bottom: 0px;
         border-top: 1px solid rgb(115, 112, 112);
     }
+    #opt1btn{
+        bottom: 200px;
+    }
+
 }
