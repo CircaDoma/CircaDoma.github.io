@@ -3,8 +3,8 @@ export const textNodes = [
         id: 0,
         nodetitle: `Day 1 - Forest`,
         text: `<h1>Day 1</h1><p>You wake lying on your back, staring up into a ceiling of branches. You sit up and find yourself in a forest, alone.</p><p>Half buried in the leaves beside you is a long sword. On closer inspection, the blade is free of all markings, save the hilt, where a human face is wrought in silver, expression inscrutable.</p><p>You have no memory of where you are or how you came here. There’s a river nearby: you can hear it off to your left. You stand and notice a ridge of stone in the distance that wasn’t visible from the ground.</p>
-        <p><em>There must be something here to tell me where I am.</p>
-        <p>I just need to get my bearings.</em></p>
+        <p><em>There must be something here to tell me where I am.</em></p>
+        <p><em>I just need to get my bearings.</em></p>
         <p>With no sign of a trail, you decide you’ll have to make a choice. Do you explore the river or search the ridge?</p>`,
         image: `Forest`,
         options: [
