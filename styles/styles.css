@@ -219,7 +219,7 @@ nav a.accent-link{
         display: block;
     }
     #text {
-    margin: 0rem 15% 1rem 15%;
+    margin: 2% 17% 2% 17%;
     }
     nav{
         position: fixed;
@@ -259,10 +259,6 @@ nav a.accent-link{
         margin: 0;
         text-align: justify;
     }
-    div{
-        margin: 2%;
-        hyphens: auto;
-    }
     #openMapButton{
         background: none;
         border: none;
@@ -291,18 +287,23 @@ nav a.accent-link{
         left: -20px;
         right: -20px;
     }
-    .btn {
-        padding: 5px 10px;
+    body{
+        margin-bottom: 100px;
+    }
+    /*.btn {
+        padding: 30px 100px;
         color: black;
         background-color: white;
         font-size: 1rem;
         font: bold;
         position: fixed;
+        display: flex;
+        bottom: -10px
+    }*/
+    #option-buttons {
+        background-color: brown;
     }
-    #opt1btn {
-        left: 20px;
-    }
-    body{
-        margin-bottom: 100px;
+    .text-btn{
+        
     }
 }
