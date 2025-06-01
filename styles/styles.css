@@ -266,7 +266,7 @@ nav a.accent-link{
         display: flex;
         position: fixed;
         left: 20px;
-        bottom: 20px;
+        bottom: 18px;
     }
     #openSettingsButton{
         background: none;
@@ -275,7 +275,7 @@ nav a.accent-link{
         display: flex;
         position: fixed;
         right: 20px;
-        bottom: 20px;
+        bottom: 18px
     }
     #mobile-action-bar{
         background-color: white;
