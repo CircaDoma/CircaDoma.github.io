@@ -283,14 +283,26 @@ nav a.accent-link{
     }
     #mobile-action-bar{
         background-color: white;
-        width: 100%;
-        height: 80px;
+        height: 90px;
         position: fixed;
-        bottom: 0px;
+        justify-content: center;
+        bottom: -20px;
         border-top: 1px solid rgb(115, 112, 112);
+        left: -20px;
+        right: -20px;
     }
-    #opt1btn{
-        bottom: 200px;
+    .btn {
+        padding: 5px 10px;
+        color: black;
+        background-color: white;
+        font-size: 1rem;
+        font: bold;
+        position: fixed;
     }
-
+    #opt1btn {
+        left: 20px;
+    }
+    body{
+        margin-bottom: 100px;
+    }
 }
