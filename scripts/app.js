@@ -27,9 +27,9 @@ function showTextNode(textNodeIndex) {
             const button = document.createElement('button')
             button.innerText = option.text
             if (option.oldChoice === true && option.wrongPath === true) {
-                button.classList.add('btn','oldChoice')
+                button.classList.add('text-btn','oldChoice')
             } else {
-                button.classList.add('btn')
+                button.classList.add('text-btn')
             }
             button.addEventListener('click', () => selectOption(option))
             optionButtonsElement.appendChild(button)
@@ -53,9 +53,9 @@ function changeImage (imgName) {
             const button = document.createElement('button')
             button.innerText = option.text
             if (option.oldChoice === true && option.wrongPath === true) {
-                button.classList.add('btn','oldChoice')
+                button.classList.add('text-btn','oldChoice')
             } else {
-                button.classList.add('btn')
+                button.classList.add('text-btn')
             }
             button.addEventListener('click', () => selectOption(option))
             optionButtonsElement.appendChild(button)

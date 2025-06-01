@@ -33,7 +33,7 @@ h2 {
 .column {
   flex: 50%;
 }
-.btn {
+.text-btn {
     padding: 5px 10px;
     color: white;
     background-color: black;
@@ -301,9 +301,10 @@ nav a.accent-link{
         bottom: -10px
     }*/
     #option-buttons {
-        background-color: brown;
+        background-color: white;
     }
     .text-btn{
-        
+        background-color: black;
+        color: white;
     }
 }
