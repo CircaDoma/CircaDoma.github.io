@@ -2,10 +2,7 @@ export const textNodes = [
     {
         id: 0,
         nodetitle: `Day 1 - Forest`,
-        text: `<h1>Day 1</h1><p>You wake lying on your back, staring up into a ceiling of branches. You sit up and find yourself in a forest, alone.</p><p>Half buried in the leaves beside you is a long sword. On closer inspection, the blade is free of all markings, save the hilt, where a human face is wrought in silver, expression inscrutable.</p><p>You have no memory of where you are or how you came here. There’s a river nearby: you can hear it off to your left. You stand and notice a ridge of stone in the distance that wasn’t visible from the ground.</p>
-        <p><em>There must be something here to tell me where I am.</em></p>
-        <p><em>I just need to get my bearings.</em></p>
-        <p>With no sign of a trail, you decide you’ll have to make a choice. Do you explore the river or search the ridge?</p>`,
+        text: `<h1>Day 1</h1><p>You wake lying on your back, staring up into a ceiling of branches. You sit up and find yourself in a forest, alone.</p><p>Half buried in the leaves beside you is a long sword. On closer inspection, the blade is free of all markings, save the hilt, where a human face is wrought in silver, expression inscrutable.</p><p>You have no memory of where you are or how you came here. There’s a river nearby: you can hear it off to your left. You stand and notice a ridge of stone in the distance that wasn’t visible from the ground.</p><p><em>There must be something here to tell me where I am.</em></p><p><em>I just need to get my bearings.</em></p><p>With no sign of a trail, you decide you’ll have to make a choice. Do you explore the river or search the ridge?</p>`,
         image: `Forest`,
         options: [
             {
@@ -27,7 +24,7 @@ export const textNodes = [
     {
         id: 1,
         nodetitle: `Day 1 - Forest - River`,
-        text: `<h1>Day 1</h1>Best to start at the river. Sword in hand, you move toward the sound. A hundred yards downhill you see it, dark water fifty feet across, deep and powerful. You’ve just stepped onto the bank when you hear the sound of footfalls behind you. A man is running through the trees above you. When he sees you, he stops and shouts. “Have you solved it yet?” You stand there, uncomprehending. He glances at the sword, mutters to himself, and begins moving off. You have to say something. “Wait! Who are you?” He looks back, with pity or contempt you can’t say. “Stay away from the bridge!” He turns and disappears into the trees. Alone again, you consider his words. Though his question is meaningless, the warning is clear enough. But which way is the bridge? You decide you’ll have to make a choice. Do you walk upstream or down?`,
+        text: `<h1>Day 1</h1>Best to start at the river. Sword in hand, you move toward the sound. A hundred yards downhill you see it, dark water fifty feet across, deep and powerful.</p><p>You’ve just stepped onto the bank when you hear the sound of footfalls behind you. A man is running through the trees above you. When he sees you, he stops and shouts.</p><p>“Have you solved it yet?”</p><p>You stand there, uncomprehending. He glances at the sword, mutters to himself, and begins moving off. You have to say something.</p><p>“Wait! Who are you?”</p><p>He looks back, with pity or contempt you can’t say.</p><p>“Stay away from the bridge!”</p><p>He turns and disappears into the trees. Alone again, you consider his words. Though his question is meaningless, the warning is clear enough.</p><p><em>But which way is the bridge?</em></p><p>You decide you’ll have to make a choice. Do you walk upstream or down?`,
         image: `River`,
         options: [
             {
@@ -45,7 +42,7 @@ export const textNodes = [
     {
         id: 2,
         nodetitle: `Day 1 - Forest - Ridge`,
-        text: `<h1>Day 1</h1>You decide the ridge offers the best vantage point. Sword in hand, you make your way through the trees. At the base of the cliff, you find a narrow path cut into the stone. The ascent is treacherous, the path barely wide enough for one person. You were right, you can see for miles up here. The river is a grey serpent cutting through the forest. You notice a thin column of smoke rising in the distance. Could that be a person? The thought is cut off as you hear a shout below you. You glance down and see a man sprint past the base of the ridge. A hundred yards behind him comes a second man, sword in hand, giving chase. In their haste, they didn’t notice you. Do you follow them, or head toward the smoke?`,
+        text: `<h1>Day 1</h1><p>You decide the ridge offers the best vantage point. Sword in hand, you make your way through the trees.</p><p>At the base of the cliff, you find a narrow path cut into the stone. The ascent is treacherous, the path barely wide enough for one person.</p><p>You were right, you can see for miles up here. The river is a grey serpent cutting through the forest. You notice a thin column of smoke rising in the distance.</p><p><em>Could that be a person?</em></p><p>The thought is cut off as you hear a shout below you. You glance down and see a man sprint past the base of the ridge. A hundred yards behind him comes a second man, sword in hand, giving chase.</p><p>In their haste, they didn’t notice you. Do you follow them, or head toward the smoke?`,
         image: `Ridge`,
         options: [
             {
@@ -86,7 +83,7 @@ export const textNodes = [
         options: [
             {
                 nodetitle: "Node -1",
-                text: `Try Again`,
+                text: `Continue`,
                 nextText: -1
             }
         ]
@@ -99,7 +96,7 @@ export const textNodes = [
         options: [
             {
                 nodetitle: "Node -1",
-                text: `Try Again`,
+                text: `Continue`,
                 nextText: -1
             }
         ]
