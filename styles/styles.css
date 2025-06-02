@@ -18,10 +18,41 @@
     margin: 0em 0em 1em 0em;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 70px;
 }
+
+.fadeIn {
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
+    color: #999999;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 0.25em;
+    margin-bottom: 4em;
+}
+#text {
+    margin: 0rem 20% 1rem 20%;
+    text-align: left;
+    line-height: 1.30em;
+    letter-spacing: 0.05em;
+    color: black;
 }
 .info-card-body{
     margin: 0em 30% 0em 30%;
@@ -78,13 +109,6 @@ h2 {
     font-size: 2rem;
     font: bold;
     margin: 1rem;
-}
-#text {
-    margin: 0rem 20% 1rem 20%;
-    text-align: left;
-    line-height: 1.30em;
-    letter-spacing: 0.05em;
-    color: black;
 }
 p {
     margin: 0em 20% 1em 20%;

@@ -32,8 +32,8 @@
     <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
 
     <main>
-        <img class="flavorImg" id="imgLoc" src="../images/bridge.png" draggable="false">
-        <div class="container">
+        <img class="flavorImg fadeIn" id="imgLoc" src="../images/bridge.png" draggable="false">
+        <div id="container">
             <div id="text">Text</div>
         </div>
     </main>
@@ -42,8 +42,8 @@
             <img src="../images/map-icon.svg" height="35px" draggable="false"></img>
         </button>
         <div id="option-buttons" class="btn-grid">
-            <button class="text-btn" id="opt1btn">Option A</button>
-            <button class="text-btn" id="opt2btn">Option B</button>
+            <button class="text-btn" id="opt1btn" onclick="fadeText()">Option A</button>
+            <button class="text-btn" id="opt2btn" onclick="fadeText()">Option B</button>
         </div>
         <button id="openSettingsButton" onclick="openSettings()">
             <img src="../images/Settings-icon.svg" height="33px" draggable="false"></img>

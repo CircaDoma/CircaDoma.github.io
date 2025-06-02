@@ -18,6 +18,7 @@ function landingPage() {
 function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
     textElement.innerHTML = textNode.text
+    textElement.classList.remove('fadeIn')
     while (optionButtonsElement.firstChild) {
         optionButtonsElement.removeChild(optionButtonsElement.firstChild)
     }
@@ -27,9 +28,11 @@ function showTextNode(textNodeIndex) {
             const button = document.createElement('button')
             button.innerText = option.text
             if (option.oldChoice === true && option.wrongPath === true) {
-                button.classList.add('text-btn','oldChoice')
+                button.classList.add('text-btn','oldChoice', 'fadeIn')
+                textElement.classList.add('fadeIn')
             } else {
-                button.classList.add('text-btn')
+                button.classList.add('text-btn', 'fadeIn')
+                textElement.classList.add('fadeIn')
             }
             button.addEventListener('click', () => selectOption(option))
             optionButtonsElement.appendChild(button)
