@@ -24,7 +24,7 @@ export const textNodes = [
     {
         id: 1,
         nodetitle: `Day 1 - Forest - River`,
-        text: `<h1>Day 1</h1><p>Best to start at the river. Sword in hand, you move toward the sound. A hundred yards downhill you see it, dark water fifty feet across, deep and powerful.</p><p>You’ve just stepped onto the bank when you hear the sound of footfalls behind you. A man is running through the trees above you. When he sees you, he stops and shouts.</p><p>“Have you solved it yet?”</p><p>You stand there, uncomprehending. He glances at the sword, mutters to himself, and begins moving off. You have to say something.</p><p>“Wait! Who are you?”</p><p>He looks back, with pity or contempt you can’t say.</p><p>“Stay away from the bridge!”</p><p>He turns and disappears into the trees. Alone again, you consider his words. Though his question is meaningless, the warning is clear enough.</p><p><em>But which way is the bridge?</em></p><p>You decide you’ll have to make a choice. Do you walk upstream or down?`,
+        text: `<h1>DAY 1</h1><p>Best to start at the river. Sword in hand, you move toward the sound. A hundred yards downhill you see it, dark water fifty feet across, deep and powerful.</p><p>You’ve just stepped onto the bank when you hear the sound of footfalls behind you. A man is running through the trees above you. When he sees you, he stops and shouts.</p><p>“Have you solved it yet?”</p><p>You stand there, uncomprehending. He glances at the sword, mutters to himself, and begins moving off. You have to say something.</p><p>“Wait! Who are you?”</p><p>He looks back, with pity or contempt you can’t say.</p><p>“Stay away from the bridge!”</p><p>He turns and disappears into the trees. Alone again, you consider his words. Though his question is meaningless, the warning is clear enough.</p><p><em>But which way is the bridge?</em></p><p>You decide you’ll have to make a choice. Do you walk upstream or down?`,
         image: `River`,
         options: [
             {
@@ -41,7 +41,7 @@ export const textNodes = [
     },
     {
         id: 2,
-        nodetitle: `Day 1 - Forest - Ridge`,
+        nodetitle: `DAY 1 - Forest - Ridge`,
         text: `<h1>Day 1</h1><p>You decide the ridge offers the best vantage point. Sword in hand, you make your way through the trees.</p><p>At the base of the cliff, you find a narrow path cut into the stone. The ascent is treacherous, the path barely wide enough for one person.</p><p>You were right, you can see for miles up here. The river is a grey serpent cutting through the forest. You notice a thin column of smoke rising in the distance.</p><p><em>Could that be a person?</em></p><p>The thought is cut off as you hear a shout below you. You glance down and see a man sprint past the base of the ridge. A hundred yards behind him comes a second man, sword in hand, giving chase.</p><p>In their haste, they didn’t notice you. Do you follow them, or head toward the smoke?`,
         image: `Ridge`,
         options: [
@@ -59,8 +59,8 @@ export const textNodes = [
     }, 
     {
         id: 3,
-        nodetitle: `Day 1 - Forest - River - Stone`,
-        text: `<h1>Day 1</h1>You decide to walk downstream. A mile down you come to a path overgrown with creepers bending away from the river. You choose to follow it, and it soon widens into a clear trail. The sun is high overhead by the time you come to a clearing with a great stone jutting from the earth. It’s pitted surface is too steep to climb. You’re only a stone’s throw from the rock when you notice a crumpled form at its base. You recoil in fear, remembering the warning of the man at the river, but the shape before you poses no threat now. You approach carefully and see the lifeless hand still clutching his weapon, but the hold is strange, almost as if… You examine the rock above him and you find what you were looking for: letters carved crudely into its surface. “BRIDGE. ONLY ONE. ESCA‒” You’ve just begun to wonder what they could mean when from the far side of the rock leaps a man, wild in rage. He swings, but you jump back. You have only a moment to decide: do you stand and fight, or run for your life?`,
+        nodetitle: `DAY 1 - Forest - River - Stone`,
+        text: `<h1>Day 1</h1><p>You decide to walk downstream. A mile down you come to a path overgrown with creepers bending away from the river. You choose to follow it, and it soon widens into a clear trail. The sun is high overhead by the time you come to a clearing with a great stone jutting from the earth. It’s pitted surface is too steep to climb. You’re only a stone’s throw from the rock when you notice a crumpled form at its base. You recoil in fear, remembering the warning of the man at the river, but the shape before you poses no threat now. You approach carefully and see the lifeless hand still clutching his weapon, but the hold is strange, almost as if… You examine the rock above him and you find what you were looking for: letters carved crudely into its surface. “BRIDGE. ONLY ONE. ESCA‒” You’ve just begun to wonder what they could mean when from the far side of the rock leaps a man, wild in rage. He swings, but you jump back. You have only a moment to decide: do you stand and fight, or run for your life?</p>`,
         image: `Stone`,
         options: [
             {
@@ -77,8 +77,8 @@ export const textNodes = [
     }, 
     {
         id: 4,
-        nodetitle: `Day 1 - Forest - River - Bridge`,
-        text: `<h1>Day 1</h1>You decide to walk upstream. After walking for an hour you round a bend and spot the curve of a stone bridge spanning the water. You duck into the trees and stand breathless, watching for any sign of danger. Seeing no one, you creep closer, concealed in the shade of the forest. As you approach, you get a better look at the bridge. It is narrower than you’d assumed, only wide enough for a single person to cross at a time. Its stones are black with age, and run down into the churning water to rest on some ancient foundation. You’re almost parallel with the structure when a rustle in the leaves behind you draws your attention. You spin just in time to see the figure rise from the cover of the undergrowth. At first you think it is the man from before, but you notice the sword in his hand as he advances. You stumble backward onto the gravel of the beach, then feel slimy stone under your feet. “I’m not going to let you find it first.” He growns. You start to reply as you back up on the causeway, but he swings at you. You block the blow, but it knocks you off balance. You hang for a moment in the air, then crash into the river. The icy water closes over you in a flash. Your sword is gone. You rise to the surface once, cathcing a wild glimpse of the bridge moving away from you, the man standing at the apex. You try to swim, but the current is too strong. You sink again into the darkness.`,
+        nodetitle: `DAY 1 - Forest - River - Bridge`,
+        text: `<h1>Day 1</h1><p>You decide to walk upstream. After walking for an hour you round a bend and spot the curve of a stone bridge spanning the water. You duck into the trees and stand breathless, watching for any sign of danger. Seeing no one, you creep closer, concealed in the shade of the forest. As you approach, you get a better look at the bridge. It is narrower than you’d assumed, only wide enough for a single person to cross at a time. Its stones are black with age, and run down into the churning water to rest on some ancient foundation. You’re almost parallel with the structure when a rustle in the leaves behind you draws your attention. You spin just in time to see the figure rise from the cover of the undergrowth. At first you think it is the man from before, but you notice the sword in his hand as he advances. You stumble backward onto the gravel of the beach, then feel slimy stone under your feet. “I’m not going to let you find it first.” He growns. You start to reply as you back up on the causeway, but he swings at you. You block the blow, but it knocks you off balance. You hang for a moment in the air, then crash into the river. The icy water closes over you in a flash. Your sword is gone. You rise to the surface once, cathcing a wild glimpse of the bridge moving away from you, the man standing at the apex. You try to swim, but the current is too strong. You sink again into the darkness.</p>`,
         image: `Bridge`,
         options: [
             {
@@ -90,8 +90,8 @@ export const textNodes = [
     }, 
     {
         id: 5,
-        nodetitle: `Day 1 - Forest - Ridge - Clearing`,
-        text: `<h1>Day 1</h1>He needs help! You scramble down the cliff and run after the two men. The trees grow dense, branches tugging at your clothes as you push through, when suddenly the forest falls away, and you stumble into a wide clearing of tall grass. As you look up, you see the swordsman a few yards in front of you, standing over something in the grass. He turns at the sound of your footsteps, and seeing you, rushes forward. You scramble backward, but the branches are a wall behind you, hemming you in. He swings at you, and you throw your own sword up in defense. The fight is short and decisive. A quick movement on his part and you fall to the ground. As your vision fades, you hear him say “I’m sorry. Only one of us‒” And you remember no more.`,
+        nodetitle: `DAY 1 - Forest - Ridge - Clearing`,
+        text: `<h1>Day 1</h1><p>He needs help! You scramble down the cliff and run after the two men. The trees grow dense, branches tugging at your clothes as you push through, when suddenly the forest falls away, and you stumble into a wide clearing of tall grass. As you look up, you see the swordsman a few yards in front of you, standing over something in the grass. He turns at the sound of your footsteps, and seeing you, rushes forward. You scramble backward, but the branches are a wall behind you, hemming you in. He swings at you, and you throw your own sword up in defense. The fight is short and decisive. A quick movement on his part and you fall to the ground. As your vision fades, you hear him say “I’m sorry. Only one of us‒” And you remember no more.</p>`,
         image: `Clearing`,
         options: [
             {
@@ -103,8 +103,8 @@ export const textNodes = [
     }, 
     {
         id: 6,
-        nodetitle: `Day 1 - Forest - Ridge - Hut`,
-        text: `<h1>Day 1</h1>You crouch out of sight to make sure they are gone before scrambling down the cliff and hurrying into the relative concealment of the trees. Those two spell trouble, the smoke is a safer bet. You move through the trees slowly until you cross a path that seems to head in the direction of the smoke. After some time the path widens and you can just make out the edge of a roof through the branches. A sudden movement to your left makes you turn to see a man lunging from a thicket, sword-first. You have no time to block the blow. As you fall, you wonder if it was the same man back at the ridge. You don’t live long enough to ask.`,
+        nodetitle: `DAY 1 - Forest - Ridge - Hut`,
+        text: `<h1>Day 1</h1><p>You crouch out of sight to make sure they are gone before scrambling down the cliff and hurrying into the relative concealment of the trees. Those two spell trouble, the smoke is a safer bet. You move through the trees slowly until you cross a path that seems to head in the direction of the smoke. After some time the path widens and you can just make out the edge of a roof through the branches. A sudden movement to your left makes you turn to see a man lunging from a thicket, sword-first. You have no time to block the blow. As you fall, you wonder if it was the same man back at the ridge. You don’t live long enough to ask.</p>`,
         image: `Hut`,
         options: [
             {
@@ -116,8 +116,8 @@ export const textNodes = [
     }, 
     {
         id: 7,
-        nodetitle: `Day 1 - Forest - River - Stone - Bridge`,
-        text: `<h1>Day 1</h1>As his next blow falls, you bring your sword up to parry. He’s stronger than you’d thought. His swing knocks you off balance. The followup comes moments later, and you barely get your blade up in time. With a ring of steel on steel, your sword flies from your hands. You turn to run, but he’s anticipated you, and he strikes before you can take a step. It was hardly a fair fight. You can see the determination in his eyes as you fall to your knees, along with contempt, or is that pain? You try to speak, but can’t. He turns and walks away. You remember no more.`,
+        nodetitle: `DAY 1 - Forest - River - Stone - Bridge`,
+        text: `<h1>Day 1</h1><p>As his next blow falls, you bring your sword up to parry. He’s stronger than you’d thought. His swing knocks you off balance. The followup comes moments later, and you barely get your blade up in time. With a ring of steel on steel, your sword flies from your hands. You turn to run, but he’s anticipated you, and he strikes before you can take a step. It was hardly a fair fight. You can see the determination in his eyes as you fall to your knees, along with contempt, or is that pain? You try to speak, but can’t. He turns and walks away. You remember no more.</p>`,
         image: `Bridge`,
         options: [
             {
@@ -129,8 +129,8 @@ export const textNodes = [
     }, 
     {
         id: 8,
-        nodetitle: `Day 1 - Forest - River - Stone - Hut`,
-        text: `<h1>Day 1</h1>As his next blow falls, you lunge out of the way, and the blade cuts into the turf of the clearing. By the time he pulls it free you’re at the trees. You crash through the forest, branches whipping your face and arms and you run. You don’t look back. The woods are too thick to see far. You can lose him if you are fast enough. The earth bends down into a shallow gully curving to the right. You round a bend and suddenly the ground under you vanishes and you tumble down a steep hill, sword flailing. You slide to a stop at the bottom, and all grows silent. No major injuries; you’re lucky you didn’t fall on the sword. You scan the crest above you, but see no one. You lost him. After catching your breath, you stand and move on, away from the stone. Whoever he was, you have no intention of crossing paths with him again. As you walk, the day wanes, the trees wrap themselves in shadow, and you find yourself in a field of black pillars and gray light. You are just wondering where you should spend the night when you see a light peaking through the dusk. As you approach, the light reveals itself as the window of a small hut nestled in the trees.`,
+        nodetitle: `DAY 1 - Forest - River - Stone - Hut`,
+        text: `<h1>Day 1</h1><p>As his next blow falls, you lunge out of the way, and the blade cuts into the turf of the clearing. By the time he pulls it free you’re at the trees. You crash through the forest, branches whipping your face and arms and you run. You don’t look back. The woods are too thick to see far. You can lose him if you are fast enough. The earth bends down into a shallow gully curving to the right. You round a bend and suddenly the ground under you vanishes and you tumble down a steep hill, sword flailing. You slide to a stop at the bottom, and all grows silent. No major injuries; you’re lucky you didn’t fall on the sword. You scan the crest above you, but see no one. You lost him. After catching your breath, you stand and move on, away from the stone. Whoever he was, you have no intention of crossing paths with him again. As you walk, the day wanes, the trees wrap themselves in shadow, and you find yourself in a field of black pillars and gray light. You are just wondering where you should spend the night when you see a light peaking through the dusk. As you approach, the light reveals itself as the window of a small hut nestled in the trees.</p>`,
         image: `Hut`,
         options: [
             {
@@ -142,7 +142,7 @@ export const textNodes = [
     }, 
     {
         id: 9,
-        nodetitle: `Day 1 - Forest - River - Stone - Hut - Witch`,
+        nodetitle: `DAY 1 - Forest - River - Stone - Hut - Witch`,
         text: `<h1>Day 1</h1>Apprehensive, you move forward carefully. Around the other side of the house you see a simple door. Fear of your earlier assailant rises up, and you almost walk away, but he couldn’t have gotten here faster than you. Regardless, you aren’t taking any chances. You move silently to the door, sword first, and knock loudly on the frame with the flat of the blade. A tense moment passes with no reaction, and then a bolt slides and the door swings inward, throwing a red light across the step. You find yourself confronted not by a man, but a woman, bent with age, a glint in her eye that somehow matches the red of her fire. “Come in.” She says, and despite your fears, you find her command impossible to refuse. You step inside. The interior is densely packed with narrow shelves filled with bottles, jars, bundles of plants, small pouches and large vessels. The center of the room is dominated by a large table covered in the same. The door closes behind you and she moves to the far side of the room, her eyes somehow never leaving you for a moment. “It appears you’ve met some of the others… WHAT NEXT? WHAT DOES SHE SAY?`,
         image: `Witch`,
         options: [
@@ -155,7 +155,7 @@ export const textNodes = [
     }, 
     {
         id: 10,
-        nodetitle: `Day 2 - Forest`,
+        nodetitle: `DAY 2 - Forest`,
         text: `<h1>Day 2</h1>You wake up in the forest like yesterday. You guess sword for the riddle and think you are in competition with the other people you meet. You need to find the gate and stop others from finding it. Choose river or ridge.`,
         image: `Forest`,
         options: [
@@ -173,7 +173,7 @@ export const textNodes = [
     }, 
     {
         id: 11,
-        nodetitle: `Day 2 - Forest - River`,
+        nodetitle: `DAY 2 - Forest - River`,
         text: `<h1>Day 2</h1>Decide to go to the river, thinking the gate might be at either the stone or the bridge.`,
         image: `River`,
         options: [

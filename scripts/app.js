@@ -18,7 +18,7 @@ function landingPage() {
 function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
     textElement.innerHTML = textNode.text
-    textElement.classList.remove('fadeIn')
+    textElement.classList.remove('fadeIn', 'text')
     while (optionButtonsElement.firstChild) {
         optionButtonsElement.removeChild(optionButtonsElement.firstChild)
     }
