@@ -21,6 +21,7 @@ h1 {
     font-size: 5rem;
     letter-spacing: 0.05em;
     margin-bottom: 70px;
+    line-height: 1.30em;
 }
 
 .fadeIn {
@@ -238,6 +239,12 @@ nav a.accent-link{
         padding: 0em 0em 1em 0em;
         width: 80%;
     }
+    h1 {
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 70px;
+    line-height: 1.30em;
+}
     h2{
         font-size: 1.5em;
     }
