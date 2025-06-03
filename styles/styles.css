@@ -27,8 +27,6 @@ h1 {
 .fadeIn {
     animation: fadeIn;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
 }
 
 @keyframes fadeIn {
