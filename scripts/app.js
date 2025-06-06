@@ -4,6 +4,7 @@ import {
 
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
+const mapIcon = document.getElementById('map')
 
 let attemptCounter = 0
 
@@ -19,6 +20,7 @@ function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
     textElement.innerHTML = textNode.text
     textElement.classList.remove('fadeIn', 'text')
+    mapIcon.classList.remove('fadeIn')
     while (optionButtonsElement.firstChild) {
         optionButtonsElement.removeChild(optionButtonsElement.firstChild)
     }
@@ -30,9 +32,11 @@ function showTextNode(textNodeIndex) {
             if (option.oldChoice === true && option.wrongPath === true) {
                 button.classList.add('text-btn','oldChoice', 'fadeIn')
                 textElement.classList.add('fadeIn')
+                mapIcon.classList.add('fadeIn')
             } else {
                 button.classList.add('text-btn', 'fadeIn')
                 textElement.classList.add('fadeIn')
+                mapIcon.classList.add('fadeIn')
             }
             button.addEventListener('click', () => selectOption(option))
             optionButtonsElement.appendChild(button)
