@@ -40,11 +40,11 @@ function showTextNode(textNodeIndex) {
     })
 };
 
-function changeImage (imgName) {
+/*function changeImage (imgName) {
     img.src = img.src.replace("images/forest_quest_start.png", "images/bridge.png"); 
 }
 
-/*function showTextNode(textNodeIndex) {
+function showTextNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
     textElement.innerHTML = textNode.text
     while (optionButtonsElement.firstChild) {
@@ -101,4 +101,4 @@ function selectOption(option) {
 
 startGame();
 console.log(attemptCounter);
-changeImage("test");
+//changeImage("test");

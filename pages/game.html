@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" href="../images/favicon.png">
 </head>
 <body>
-    <audio src="audio/forest-audio.wav" autoplay loop></audio>
+    <audio src="../audio/forest-audio.wav" autoplay loop></audio>
     <button id="open-sidebar-button" onclick="openSideBar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
         <img src="../images/menu-button.svg" height="45px"></img>
     </button>
@@ -41,6 +41,9 @@
         <button id="openMapButton" onclick="openMap()">
             <img src="../images/map-icon.svg" height="35px" draggable="false"></img>
         </button>
+        <div id="map" onclick="closeMap()">
+            <p>map test</p>
+        </div>
         <div id="option-buttons" class="btn-grid">
             <button class="text-btn" id="opt1btn" onclick="fadeText()">Option A</button>
             <button class="text-btn" id="opt2btn" onclick="fadeText()">Option B</button>
@@ -48,6 +51,9 @@
         <button id="openSettingsButton" onclick="openSettings()">
             <img src="../images/Settings-icon.svg" height="33px" draggable="false"></img>
         </button>
+        <div id="settings" onclick="closeSettings()">
+            <p>settings test</p>
+        </div>
     </div>
 </body>
 </html>
