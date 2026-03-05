@@ -8,6 +8,7 @@ ELEMENT TYPE SELECTORS
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 1.1rem;
+    background-color: #0f1413;
 }
 h1 {
     font-size: 5rem;
@@ -17,9 +18,8 @@ h1 {
 }
 h2 {
     font-size: 2rem;
-    color: #999999;
+    color: #a3c9a8;
     font-weight: 100;
-    font-style: italic;
     letter-spacing: 0.25em;
     margin-bottom: 4em;
 }
@@ -28,6 +28,7 @@ p {
     text-align: left;
     line-height: 1.30em;
     letter-spacing: 0.05em;
+    color: #ddd8c4;
 }
 em {
     text-align: left;
