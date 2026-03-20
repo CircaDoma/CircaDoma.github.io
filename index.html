@@ -9,6 +9,9 @@
     <title>SALTUS - HOME</title>
     <link rel="icon" type="image/png" href="images/favicon-2.png">
 </head>
+<div class="intro-overlay">
+    <img src="assets/img/intro-logo.gif" draggable="false" class="intro-logo">
+</div>
     <div class="container">
         <img src="assets/img/title-full.png" draggable="false" class="title-art"></img>
         <div class="cloud-wrapper">
@@ -73,7 +76,10 @@
         </div>
     </div>
     <script>
-
+        setTimeout(() => {
+            document.querySelector('.intro-overlay').remove();
+        }, 2300);  /* gif duration + 1s hold + 1s fade (in ms) */
+        
         document.querySelector('.container').addEventListener('scroll', () => {
             document.querySelector('.down-arrow').classList.add('hidden');
         }, { once: true });

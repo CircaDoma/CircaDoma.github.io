@@ -135,6 +135,40 @@ body {
     transition: opacity 200ms ease;
 }
 
+.intro-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: introFade 1s ease-in-out forwards;
+    animation-delay: 1.6s;  /* gif duration + 1s hold */
+}
+
+.intro-logo {
+    width: max(150px, 10%);
+    height: auto;
+    image-rendering: pixelated;
+    animation: logoFade 0.5s ease-in-out forwards;
+}
+
+@keyframes logoFade {
+    0%   { opacity: 0; }
+    50%  { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+@keyframes introFade {
+    0%   { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
 h1 {
     font-size: 5rem;
     letter-spacing: 0.05em;
