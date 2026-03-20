@@ -45,6 +45,10 @@ body {
     object-fit: cover;
 }
 
+.nav-icon {
+    transition: opacity 200ms ease;
+}
+
 h1 {
     font-size: 5rem;
     letter-spacing: 0.05em;

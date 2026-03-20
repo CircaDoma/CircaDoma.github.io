@@ -21,22 +21,34 @@
                         </li>
                         <li class="home-li">
                             <a aria-current="page" href="index.html">
-                                <img src="assets/nav_tools/home.png" alt="home" class="nav-art nav-icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pages/about.html">
-                                <img src="assets/nav_tools/about.png" alt="about" class="nav-art nav-icon">
+                                <img src="assets/nav_tools/home.png"
+                                    data-default="assets/nav_tools/home.png"
+                                    data-hover="assets/nav_tools/home-hover.png"
+                                    alt="home" class="nav-art nav-icon">
                             </a>
                         </li>
                         <li>
                             <a href="pages/guide.html">
-                                <img src="assets/nav_tools/audio.png" alt="guide" class="nav-art nav-icon">
+                                <img src="assets/nav_tools/audio.png"
+                                    data-default="assets/nav_tools/audio.png"
+                                    data-hover="assets/nav_tools/audio-hover.png"
+                                    alt="guide" class="nav-art nav-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages/about.html">
+                                <img src="assets/nav_tools/about.png"
+                                    data-default="assets/nav_tools/about.png"
+                                    data-hover="assets/nav_tools/about-hover.png"
+                                    alt="about" class="nav-art nav-icon">
                             </a>
                         </li>
                         <li>
                             <a href="pages/game.html">
-                                <img src="assets/nav_tools/start.png" alt="game" class="nav-art nav-icon">
+                                <img src="assets/nav_tools/start.png"
+                                    data-default="assets/nav_tools/start.png"
+                                    data-hover="assets/nav_tools/start-hover.png"
+                                    alt="game" class="nav-art nav-icon">
                             </a>
                         </li>
                     </ul>
@@ -49,5 +61,27 @@
             </p> -->
         </div>
     </div>
+    <script>
+        document.querySelectorAll('.nav-icon').forEach(img => {
+            const preload = new Image();
+            preload.src = img.dataset.hover;
+
+            img.addEventListener('mouseenter', () => {
+                img.style.opacity = '0';
+                setTimeout(() => {
+                    img.src = img.dataset.hover;
+                    img.style.opacity = '1';
+                }, 80);
+            });
+
+            img.addEventListener('mouseleave', () => {
+                img.style.opacity = '0';
+                setTimeout(() => {
+                    img.src = img.dataset.default;
+                    img.style.opacity = '1';
+                }, 80);
+            });
+        });
+    </script>
 </body>
 </html>
