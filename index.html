@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.google.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <script defer src="scripts/sidebar.js"></script>
     <title>SALTUS - HOME</title>
@@ -53,15 +54,22 @@
                         </li>
                     </ul>
                 </nav>
-<!--             <h2>
+            <img src="assets/nav_tools/title-text.png" draggable="false" class="title-text"></img>
+            <img src="assets/nav_tools/down-arrow.png" draggable="false" class="down-arrow"></img>
+            <h2>
             YOU WAKE LYING ON YOUR BACK
             </h2>
             <p class="info-card-body fadeIn">
             In a vast, dark forest, with the sword lying beside you the only clue to how you got here. Engraved in the hilt is a two-faced head with soulless eyes. What is this place? How did you get here? And can you escape? Only time will tell.
-            </p> -->
+            </p>
         </div>
     </div>
     <script>
+
+        window.addEventListener('scroll', () => {
+            document.querySelector('.down-arrow').classList.add('hidden');
+        }, { once: true });
+
         document.querySelectorAll('.nav-icon').forEach(img => {
             const preload = new Image();
             preload.src = img.dataset.hover;
