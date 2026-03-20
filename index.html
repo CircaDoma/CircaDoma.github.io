@@ -11,6 +11,14 @@
 </head>
     <div class="container">
         <img src="assets/img/title-full.png" draggable="false" class="title-art"></img>
+        <div class="cloud-wrapper">
+            <div class="cloud-container">
+                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
+                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
+                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
+                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
+            </div>
+        </div>
         <div class="content">
             <body>
                 <nav id="navbar">
@@ -66,7 +74,7 @@
     </div>
     <script>
 
-        window.addEventListener('scroll', () => {
+        document.querySelector('.container').addEventListener('scroll', () => {
             document.querySelector('.down-arrow').classList.add('hidden');
         }, { once: true });
 
