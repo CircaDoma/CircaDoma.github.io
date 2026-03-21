@@ -59,6 +59,13 @@ body {
     margin: 15vh 0 5vh 0 ;
 }
 
+.production-text {
+    width: 30%;
+    height: auto;
+    image-rendering: pixelated;
+    margin-bottom: clamp(0rem, 3vw, 3rem);
+}
+
 .title-text {
     width: 40%;
     height: auto;
@@ -143,6 +150,7 @@ body {
     height: 100%;
     background-color: var(--black);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1000;
@@ -180,7 +188,7 @@ h2 {
     color: var(--red);
     font-weight: 100;
     letter-spacing: 0.25em;
-    margin: 40rem 0 2rem;  /* increase this first value */
+    margin-top: clamp(30vw, 30vw, 15vw);  /* increase this first value */
 }
 p {
     margin: 0em 20% 1em 20%;
