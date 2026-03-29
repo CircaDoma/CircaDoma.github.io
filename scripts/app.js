@@ -9,7 +9,7 @@ const mapIcon = document.getElementById('map')
 let attemptCounter = 0
 
 function startGame() {
-    showTextNode(0);
+    showTextNode(1100);
 };
 
 function landingPage() {
