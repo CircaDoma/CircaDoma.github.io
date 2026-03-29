@@ -3,48 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <script defer src="../scripts/sidebar.js"></script>
-    <title>SALTUS - ABOUT</title>
-    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epunda+Sans:wght@400;500;600;700&family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <button id="open-sidebar-button" onclick="openSideBar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
-        <img src="../images/menu-button.svg" height="45px" draggable="false"></img>
-    </button>
+    - ABOUT
+    1. About the portfolio. Talk about the fact that I coded it from scratch. - SKILLS 2, 3, 5, 7, 8
+    2. My philosophy of instructional design (1 brief paragraph)
+    3. My family (photo with small paragraph)
+    4. Other interests, saltus - SKILLS 5
+    5. Other interests, psalms project - SKILLS 5
+    6. Other interests, iPhone shortcuts app - SKILLS 9
+    
+    <button onclick="location.href='../index.html'">HOME</button>
 
-    <nav id="navbar">
-        <ul>
-            <li>   
-                <button id="close-sidebar-button" onclick="closeSideBar()" aria-label="close sidebar">
-                    <img src="../images/close-button.svg" height="45px" draggable="false"></img>
-                </button>
-            </li>
-            <li class="home-li" ><a aria-current="page" href="../index.html">HOME</a></li>
-            <li><a class="active-link" href="about.html">ABOUT</a></li>
-            <li><a href="guide.html">GUIDE</a></li>
-            <li><a class="accent-link" href="game.html">GAME</a></li>
-        </ul>
-    </nav>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="assets/footer.svg" alt="" width="220px">
+      <p>&copy; <span id="footer-year"></span> Kaleb Farar. All rights reserved.</p>
+    </div>
+  </footer>
 
-    <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
-
-    <main>
-        <div class="logo-combined-black">
-            <img class="flavorImg-icon fadeIn" src="../images/Logo-Icon-Black.png" height="100px" draggable="false">
-            <img class="flavorImg-title fadeIn" src="../images/Logo-About-Black.png" height="100px" draggable="false">
-        </div>
-        <div class="info-card fadeIn">
-            <p>
-                In it's earliest form, the game was a practice problem: making a text-based adventure game to practice using HTML. I created a game with four choices, taking the viewer to either a clearing, a stone, a bridge, or a campfire. To test the end scenarios of the game, I wrote a couple lines of text that I duplicated across all the losing scenarios of the game. If you chose the wrong path, you would be killed by a mysterious man who seemed to be everywhere at once.
-            </p>
-            <p>
-                Coming back to the project after a short hiatus, I was struck by the image of a recurring antagonist, one who was everywhere and could only be avoided by care and timing. 
-            </p>
-            <p>  
-                SALTUS grew from there.
-            </p>
-        </div>
-    </main>
+    <script>
+        document.getElementById("footer-year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

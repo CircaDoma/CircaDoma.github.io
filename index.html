@@ -1,120 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.google.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script defer src="scripts/sidebar.js"></script>
-    <title>SALTUS - HOME</title>
-    <link rel="icon" type="image/png" href="images/favicon-2.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaleb Farar</title>
+
+  <!-- Epunda Sans (body) + Inter (headings/buttons) -->
+  <link rel="icon" href="assets/favicon3.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<div class="intro-overlay">
-    <img src="assets/img/intro-logo.gif" draggable="false" class="intro-logo">
-</div>
-    <div class="container">
-        <img src="assets/img/title-full.png" draggable="false" class="title-art"></img>
-        <div class="cloud-wrapper">
-            <div class="cloud-container">
-                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
-                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
-                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
-                <img src="assets/img/cloud-scroll.png" draggable="false" class="cloud-scroll">
-            </div>
-        </div>
-        <div class="content">
-            <body>
-                <nav id="navbar">
-                    <ul>
-                        <li>   
-                            <button id="close-sidebar-button" onclick="closeSideBar()" aria-label="close sidebar">
-                                <img src="images/close-button.svg" height="45px" draggable="false">
-                            </button>
-                        </li>
-                        <li class="home-li">
-                            <a aria-current="page" href="index.html">
-                                <img src="assets/nav_tools/home.png"
-                                    data-default="assets/nav_tools/home.png"
-                                    data-hover="assets/nav_tools/home-hover.png"
-                                    draggable="false"
-                                    alt="home" class="nav-art nav-icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pages/guide.html">
-                                <img src="assets/nav_tools/audio.png"
-                                    data-default="assets/nav_tools/audio.png"
-                                    data-hover="assets/nav_tools/audio-hover.png"
-                                    draggable="false"
-                                    alt="guide" class="nav-art nav-icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pages/about.html">
-                                <img src="assets/nav_tools/about.png"
-                                    data-default="assets/nav_tools/about.png"
-                                    data-hover="assets/nav_tools/about-hover.png"
-                                    draggable="false"
-                                    alt="about" class="nav-art nav-icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pages/game.html">
-                                <img src="assets/nav_tools/start.png"
-                                    data-default="assets/nav_tools/start.png"
-                                    data-hover="assets/nav_tools/start-hover.png"
-                                    draggable="false"
-                                    alt="game" class="nav-art nav-icon">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            <img src="assets/img/production-card.png" draggable="false" class="production-text"></img>
-            <img src="assets/nav_tools/title-text.png" draggable="false" class="title-text"></img>
-            <img src="assets/nav_tools/down-arrow.png" draggable="false" class="down-arrow"></img>
-            <h2>
-            YOU FIND YOURSELF IN A FOREST
-            </h2>
-            <p class="info-card-body fadeIn">
-                The sword beside you is your only possession. Engraved on the hilt is a two-faced head with cold eyes.
-            </p>
-            <p class="info-card-body fadeIn">
-                What is this place? How did you get here? And can you escape? Only time will tell.
-            </p>
-            <p class="info-card-body fadeIn">
-                © 2026 - CIRCA TEXERE
-            </p>
-        </div>
+<body>
+
+  <main>
+    <div class="titlecard">
+      <picture>
+        <!-- For small screens (phones/tablets portrait) -->
+        <source media="(max-width: 640px)" srcset="assets/titlemain-mobile.svg">
+
+        <!-- Fallback / default for larger screens -->
+        <img src="assets/titlemain.svg" alt="" width="200px" id="titlemain" draggable="false">
+      </picture>
+      <h1><span>KALEB<br>FARAR</span></h1>
     </div>
-    <script>
-        setTimeout(() => {
-            document.querySelector('.intro-overlay').remove();
-        }, 2300);  /* gif duration + 1s hold + 1s fade (in ms) */
-        
-        document.querySelector('.container').addEventListener('scroll', () => {
-            document.querySelector('.down-arrow').classList.add('hidden');
-        }, { once: true });
 
-        document.querySelectorAll('.nav-icon').forEach(img => {
-            const preload = new Image();
-            preload.src = img.dataset.hover;
+    <p>
+      I make instructional experiences for companies that value learning, not just training.
+      This portfolio showcases some of my work as an assistant instructional designer at BYU Online.
+      I now work as a learning experience designer for ADI Global. New projects coming soon!
+    </p>
 
-            img.addEventListener('mouseenter', () => {
-                img.style.opacity = '0';
-                setTimeout(() => {
-                    img.src = img.dataset.hover;
-                    img.style.opacity = '1';
-                }, 80);
-            });
+    <div class="buttons">
+      <button onclick="location.href='mailto:fararkaleb@gmail.com'">CONTACT ME</button>
+      <button onclick="location.href='pages/work.html'">WORK</button>
+      <button onclick="location.href='pages/skills.html'">SKILLS</button>
+      <button onclick="location.href='pages/about.html'">ABOUT</button>
+    </div>
 
-            img.addEventListener('mouseleave', () => {
-                img.style.opacity = '0';
-                setTimeout(() => {
-                    img.src = img.dataset.default;
-                    img.style.opacity = '1';
-                }, 80);
-            });
-        });
-    </script>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/kalebfarar" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+      <a href="https://github.com/kfarar" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="assets/footer.svg" alt="" width="220px" draggable="false">
+      <p>&copy; <span id="footer-year"></span> Kaleb Farar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+      document.getElementById("footer-year").textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>

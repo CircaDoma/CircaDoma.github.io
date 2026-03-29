@@ -1,0 +1,207 @@
+:root {
+  --bg: #1c1c1c;
+  --text: #FFFFFF;
+  --accent: #FF391A;
+  --gray: #827572;
+}
+
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html{
+  height:100%
+}
+
+body {
+  margin: 0;
+  font-family: 'Epunda Sans', system-ui, sans-serif;
+  font-weight: 450;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* FULL SCREEN LAYOUT — no more 720px cage */
+main {
+  width: 100vw;
+  max-width: none;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+}
+
+#titlemain {
+  margin: 8rem 0 2rem 0;
+/*   width: 20vw;
+  max-width: 100%; */
+}
+
+h1, button, .btn {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+h1 {
+  font-size: clamp(8vw, 15vw, 12rem);
+  font-weight: 900;
+  line-height: 85%;
+  transform: scaleY(0.75);
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin: 0 0 6rem 0;
+  padding: 0.5em 0 0 0;
+  color: var(--text);
+
+  user-select: none;           /* works everywhere */
+  -webkit-user-select: none;   /* iOS Safari */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* old Edge */
+
+}
+
+/* Rest of content stays readable */
+p {
+  font-size: clamp(1.1rem, 2.5vw, 1.40rem);
+  max-width: 100%;
+  font-weight: lighter;
+  margin: 0 0 3rem;
+  text-align: left;
+  line-height: 1.25em;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  z-index: 10;
+}
+
+button, .btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button {
+  background: var(--text);
+  color: #000000;
+}
+
+button:hover {
+  transform: translateY(-6px);
+  color: var(--text);
+  background-color: var(--accent);
+}
+.titlecard {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.titlecard h1 {
+  margin: 0;
+}
+
+
+.btn {
+  background: var(--accent);
+  color: var(--text);
+}
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  font-size: 1.1rem;
+}
+
+.social-links a {
+  color: var(--text);
+  background-color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  color: var(--text);
+  background-color: var(--accent);
+  transform: translateY(-6px);
+
+}
+
+.site-footer {
+  background-color: #111;
+  padding: 30px 10px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.site-footer p, .site-footer .footer-content{
+  text-align: center;
+  margin: 0;
+}
+
+/* Mobile fallback — still huge but not broken */
+@media (max-width: 640px) {
+  h1 {
+    font-size: clamp(2em, 25vw, 25vw);
+    margin: 0;
+    padding: 0;
+  }
+
+  .titlecard {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    min-height: 30vh;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #titlemain {
+    margin: 3rem 0 0 0;
+    width: 30vw;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button, .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
